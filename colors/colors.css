@@ -1,0 +1,28 @@
+:root {
+  /*
+    primary (#0062B8, 9%)
+  */
+  --primary-100: #003f76;
+  --primary-200: #004886;
+  --primary-300: #005097;
+  --primary-400: #0059a7;
+  --primary-500: #0062b8;
+  --primary-600: #0072d5;
+  --primary-700: #0081f3;
+  --primary-800: #1190ff;
+  --primary-900: #2e9dff;
+  /*
+    neutral (gray, 20%)
+  */
+  --neutral-100: #1a1a1a;
+  --neutral-200: #333333;
+  --neutral-300: #4d4d4d;
+  --neutral-400: #666666;
+  --neutral-500: gray;
+  --neutral-600: #999999;
+  --neutral-700: #b3b3b3;
+  --neutral-800: #cccccc;
+  --neutral-900: #e6e6e6;
+}
+
+/*# sourceMappingURL=colors.css.map */
