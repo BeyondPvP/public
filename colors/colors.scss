@@ -1,0 +1,18 @@
+// Color name, Color code, Lightness increment
+$colors: (
+    (primary, #0062B8, 9%),
+    (neutral, gray, 20%),
+);
+
+:root {
+    @each $colorname, $base_color, $inc in $colors {
+        /*
+          #{$colorname} (#{$base_color}, #{$inc})
+        */
+
+        @for $index from -4 through 4 {
+            $keyname: "--" + $colorname + "-" + (5+$index) * 100;
+            #{$keyname}: #{scale-color($base_color, $lightness: $index * $inc)};
+        }
+    }
+}
